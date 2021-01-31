@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Jul 11 10:33:01 2020
+# Process ID: 6920
+# Current directory: C:/Users/Lenovo/decrypt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4768 C:\Users\Lenovo\decrypt\decrypt.xpr
+# Log file: C:/Users/Lenovo/decrypt/vivado.log
+# Journal file: C:/Users/Lenovo/decrypt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lenovo/decrypt/decrypt.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+open_run synth_1 -name synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

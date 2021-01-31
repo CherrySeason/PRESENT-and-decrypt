@@ -1,0 +1,13 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/Lenovo/decrypt/decrypt.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/Lenovo/decrypt/decrypt.srcs/sim_1/new/test.v,1594781683,verilog,,,,test,,,,,,,,
+C:/Users/Lenovo/decrypt/decrypt.srcs/sources_1/new/AddRoundKeys.v,1594191139,verilog,,C:/Users/Lenovo/decrypt/decrypt.srcs/sources_1/new/Pbox.v,,AddRoundKeys,,,,,,,,
+C:/Users/Lenovo/decrypt/decrypt.srcs/sources_1/new/Pbox.v,1594262354,verilog,,C:/Users/Lenovo/decrypt/decrypt.srcs/sources_1/new/Round.v,,Pbox,,,,,,,,
+C:/Users/Lenovo/decrypt/decrypt.srcs/sources_1/new/Round.v,1594392013,verilog,,C:/Users/Lenovo/decrypt/decrypt.srcs/sources_1/new/SetKeys.v,,Round,,,,,,,,
+C:/Users/Lenovo/decrypt/decrypt.srcs/sources_1/new/SetKeys.v,1594387900,verilog,,C:/Users/Lenovo/decrypt/decrypt.srcs/sources_1/new/SubCell.v,,SetKeys,,,,,,,,
+C:/Users/Lenovo/decrypt/decrypt.srcs/sources_1/new/SubCell.v,1594191443,verilog,,C:/Users/Lenovo/decrypt/decrypt.srcs/sources_1/new/UpdateKeys.v,,SubCell,,,,,,,,
+C:/Users/Lenovo/decrypt/decrypt.srcs/sources_1/new/UpdateKeys.v,1594387902,verilog,,C:/Users/Lenovo/decrypt/decrypt.srcs/sources_1/new/decrypt.v,,UpdataKeys,,,,,,,,
+C:/Users/Lenovo/decrypt/decrypt.srcs/sources_1/new/decrypt.v,1594781683,verilog,,C:/Users/Lenovo/decrypt/decrypt.srcs/sim_1/new/test.v,,decrypt,,,,,,,,

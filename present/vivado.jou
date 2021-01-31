@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul 17 08:45:34 2020
+# Process ID: 3020
+# Current directory: C:/Users/Lenovo/Desktop/0121710870329/present
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11276 C:\Users\Lenovo\Desktop\0121710870329\present\present.xpr
+# Log file: C:/Users/Lenovo/Desktop/0121710870329/present/vivado.log
+# Journal file: C:/Users/Lenovo/Desktop/0121710870329/present\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lenovo/Desktop/0121710870329/present/present.xpr
+update_compile_order -fileset sources_1

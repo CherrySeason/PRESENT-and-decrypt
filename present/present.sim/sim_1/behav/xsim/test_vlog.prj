@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../present.srcs/sources_1/new/AddRoundKeys.v" \
+"../../../../present.srcs/sources_1/new/Pbox.v" \
+"../../../../present.srcs/sources_1/new/Round.v" \
+"../../../../present.srcs/sources_1/new/SubCell.v" \
+"../../../../present.srcs/sources_1/new/UpdataKeys.v" \
+"../../../../present.srcs/sources_1/new/present.v" \
+"../../../../present.srcs/sources_1/new/test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

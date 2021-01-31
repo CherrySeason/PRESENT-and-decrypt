@@ -1,0 +1,72 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 94ead0813091452f873abf87fc5bf172 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot test_func_synth xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.LUT5
+Compiling module xil_defaultlib.AddRoundKeys_49
+Compiling module xil_defaultlib.Round
+Compiling module xil_defaultlib.AddRoundKeys_48
+Compiling module xil_defaultlib.Round_0
+Compiling module xil_defaultlib.AddRoundKeys_47
+Compiling module xil_defaultlib.Round_1
+Compiling module xil_defaultlib.AddRoundKeys_46
+Compiling module xil_defaultlib.Round_2
+Compiling module xil_defaultlib.AddRoundKeys_45
+Compiling module xil_defaultlib.Round_3
+Compiling module xil_defaultlib.AddRoundKeys_44
+Compiling module xil_defaultlib.Round_4
+Compiling module xil_defaultlib.AddRoundKeys_43
+Compiling module xil_defaultlib.Round_5
+Compiling module xil_defaultlib.AddRoundKeys_42
+Compiling module xil_defaultlib.Round_6
+Compiling module xil_defaultlib.AddRoundKeys_41
+Compiling module xil_defaultlib.Round_7
+Compiling module xil_defaultlib.AddRoundKeys_40
+Compiling module xil_defaultlib.Round_8
+Compiling module xil_defaultlib.AddRoundKeys_39
+Compiling module xil_defaultlib.Round_9
+Compiling module xil_defaultlib.AddRoundKeys_38
+Compiling module xil_defaultlib.Round_10
+Compiling module xil_defaultlib.AddRoundKeys_37
+Compiling module xil_defaultlib.Round_11
+Compiling module xil_defaultlib.AddRoundKeys_36
+Compiling module xil_defaultlib.Round_12
+Compiling module xil_defaultlib.AddRoundKeys_35
+Compiling module xil_defaultlib.Round_13
+Compiling module xil_defaultlib.AddRoundKeys_34
+Compiling module xil_defaultlib.Round_14
+Compiling module xil_defaultlib.AddRoundKeys_33
+Compiling module xil_defaultlib.Round_15
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.LUT6
+Compiling module xil_defaultlib.AddRoundKeys_32
+Compiling module xil_defaultlib.Round_16
+Compiling module xil_defaultlib.AddRoundKeys_31
+Compiling module xil_defaultlib.Round_17
+Compiling module xil_defaultlib.AddRoundKeys_30
+Compiling module xil_defaultlib.Round_18
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module xil_defaultlib.AddRoundKeys_29
+Compiling module xil_defaultlib.Round_19
+Compiling module xil_defaultlib.AddRoundKeys_28
+Compiling module xil_defaultlib.Round_20
+Compiling module xil_defaultlib.AddRoundKeys_27
+Compiling module xil_defaultlib.Round_21
+Compiling module xil_defaultlib.AddRoundKeys_26
+Compiling module xil_defaultlib.Round_22
+Compiling module xil_defaultlib.AddRoundKeys_25
+Compiling module xil_defaultlib.Round_23
+Compiling module xil_defaultlib.AddRoundKeys
+Compiling module xil_defaultlib.Round_24
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.OBUF
+Compiling module xil_defaultlib.decrypt
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_func_synth

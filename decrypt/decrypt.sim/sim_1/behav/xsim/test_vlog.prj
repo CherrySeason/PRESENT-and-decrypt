@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../decrypt.srcs/sources_1/new/AddRoundKeys.v" \
+"../../../../decrypt.srcs/sources_1/new/Pbox.v" \
+"../../../../decrypt.srcs/sources_1/new/Round.v" \
+"../../../../decrypt.srcs/sources_1/new/SetKeys.v" \
+"../../../../decrypt.srcs/sources_1/new/SubCell.v" \
+"../../../../decrypt.srcs/sources_1/new/UpdateKeys.v" \
+"../../../../decrypt.srcs/sources_1/new/decrypt.v" \
+"../../../../decrypt.srcs/sim_1/new/test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

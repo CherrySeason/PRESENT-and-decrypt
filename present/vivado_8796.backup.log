@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul 10 20:11:31 2020
+# Process ID: 8796
+# Current directory: C:/Users/Lenovo/present
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15120 C:\Users\Lenovo\present\present.xpr
+# Log file: C:/Users/Lenovo/present/vivado.log
+# Journal file: C:/Users/Lenovo/present\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lenovo/present/present.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:14 . Memory (MB): peak = 797.004 ; gain = 219.227
+update_compile_order -fileset sources_1
+open_run impl_1
+WARNING: [Netlist 29-101] Netlist 'present' is not ideal for floorplanning, since the cellview 'AddRoundKeys_40' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7a35tftg256-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.932 . Memory (MB): peak = 1627.094 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.953 . Memory (MB): peak = 1627.094 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1627.094 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:52 ; elapsed = 00:00:40 . Memory (MB): peak = 1738.176 ; gain = 911.617
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 10 20:17:06 2020...

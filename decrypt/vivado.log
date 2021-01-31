@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Jul 11 10:33:01 2020
+# Process ID: 6920
+# Current directory: C:/Users/Lenovo/decrypt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4768 C:\Users\Lenovo\decrypt\decrypt.xpr
+# Log file: C:/Users/Lenovo/decrypt/vivado.log
+# Journal file: C:/Users/Lenovo/decrypt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lenovo/decrypt/decrypt.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 774.000 ; gain = 199.090
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sat Jul 11 10:34:04 2020] Launched synth_1...
+Run output will be captured here: C:/Users/Lenovo/decrypt/decrypt.runs/synth_1/runme.log
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tftg256-1
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7a35tftg256-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Lenovo/decrypt/decrypt.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [C:/Users/Lenovo/decrypt/decrypt.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1092.586 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 1209.797 ; gain = 369.570
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1213.230 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.113 . Memory (MB): peak = 1213.230 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1215.918 ; gain = 0.000
+[Sat Jul 11 10:35:52 2020] Launched impl_1...
+Run output will be captured here: C:/Users/Lenovo/decrypt/decrypt.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 11 10:43:20 2020...
